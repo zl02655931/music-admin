@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "local": "vite serve --mode local",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@quasar/extras": "^1.12.5",
+    "axios": "^0.25.0",
     "quasar": "^2.5.5",
     "vue": "^3.2.25"
   },
